@@ -1,0 +1,7 @@
+{
+  "name": "gpsCapture",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
