@@ -1,0 +1,23 @@
+code .
+npm i capacitor-community/capacitor-googlemaps-native
+npm install @capacitor/geolocation
+ionic cap android
+ionic cap add android
+DOSKEY/HISTORY >UNO.TXT
+
+SE AÑADE EN ANDROIS MANIFEST
+
+<meta-data 
+        android:name="com.google.andorid.geo.API_KEY"
+        andorid:value="MAPS_API_KEY" />
+
+
+permissions
+
+<uses-permission android:name="android.permission.ACCES_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCES_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+
+npm i --save @capacitor-community/capacitor-googlemaps-native
